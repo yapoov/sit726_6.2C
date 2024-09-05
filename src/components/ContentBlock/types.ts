@@ -1,6 +1,7 @@
+import { ReactNode } from "react";
 import { TFunction } from "react-i18next";
 export interface ContentBlockProps {
-  icon: string;
+  Icon: ReactNode;
   title: string;
   content: string;
   section?: {

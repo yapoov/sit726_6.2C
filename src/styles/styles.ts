@@ -32,7 +32,7 @@ export const Styles = createGlobalStyle`
     }
 
     a:hover {
-        color: #18216d;
+        color: #00BBF9;
     }
 
     input,
@@ -47,7 +47,7 @@ export const Styles = createGlobalStyle`
 
         :focus-within {
             background: none;
-            box-shadow: #2e186a 0px 0px 0px 1px;
+            box-shadow: #00BBF9 0px 0px 0px 1px;
         }
     }
 
@@ -58,7 +58,7 @@ export const Styles = createGlobalStyle`
     h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        color: #5E8740;
         font-size: 56px;
         line-height: 1.18;
 
@@ -72,7 +72,7 @@ export const Styles = createGlobalStyle`
     }
 
     p {
-        color: #18216d;
+        color: #325A1E;
         font-size: 21px;        
         line-height: 1.41;
     }
@@ -84,7 +84,7 @@ export const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: #325A1E;
 
         :hover {
             color: #2e186a;
@@ -108,5 +108,25 @@ export const Styles = createGlobalStyle`
 
     .ant-drawer-content-wrapper {
         width: 300px !important;
+    }
+
+    .testimonial {
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #fff;
+        border-left: 5px solid #00bbf9;
+        border-radius: 5px;
+    }
+
+    .testimonial p {
+        font-style: italic;
+        font-size: 1.1em;
+    }
+
+    .testimonial strong {
+        display: block;
+        margin-top: 10px;
+        font-size: 1.1em;
+        color: #333;
     }
 `;
